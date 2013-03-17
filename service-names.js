@@ -3917,7 +3917,7 @@ var services = {
     },
     "1300": {
       "name": "h323hostcallsc",
-      "description": "H323 Host Call Secure"
+      "description": "H.323 Secure Call Control Signalling"
     },
     "1301": {
       "name": "ci3-software-1",
@@ -5581,15 +5581,15 @@ var services = {
     },
     "1718": {
       "name": "h323gatedisc",
-      "description": "h323gatedisc"
+      "description": "H.323 Multicast Gatekeeper Discover"
     },
     "1719": {
       "name": "h323gatestat",
-      "description": "h323gatestat"
+      "description": "H.323 Unicast Gatekeeper Signaling"
     },
     "1720": {
       "name": "h323hostcall",
-      "description": "h323hostcall"
+      "description": "H.323 Call Control Signalling"
     },
     "1721": {
       "name": "caicci",
@@ -7096,7 +7096,7 @@ var services = {
     },
     "2099": {
       "name": "h2250-annex-g",
-      "description": "H.225.0 Annex G"
+      "description": "H.225.0 Annex G Signalling"
     },
     "2100": {
       "name": "amiganetfs",
@@ -8720,7 +8720,7 @@ var services = {
     },
     "2517": {
       "name": "call-sig-trans",
-      "description": "H.323 Annex E call signaling transport"
+      "description": "H.323 Annex E Call Control Signalling Transport"
     },
     "2518": {
       "name": "willy",
@@ -11104,6 +11104,10 @@ var services = {
       "name": "d2000webserver",
       "description": "D2000 Webserver Port"
     },
+    "3121": {
+      "name": "pcmk-remote",
+      "description": "The pacemaker remote (pcmk-remote) service extends high availability functionality outside of the Linux cluster into remote nodes."
+    },
     "3122": {
       "name": "vtr-emulator",
       "description": "MTI VTR Emulator port"
@@ -12825,12 +12829,12 @@ var services = {
       "description": "Quest Data Hub"
     },
     "3567": {
-      "name": "oap",
-      "description": "Object Access Protocol"
+      "name": "enc-eps",
+      "description": "EMIT protocol stack"
     },
     "3568": {
-      "name": "oap-s",
-      "description": "Object Access Protocol over SSL"
+      "name": "enc-tunnel-sec",
+      "description": "EMIT secure tunnel"
     },
     "3569": {
       "name": "mbg-ctrl",
@@ -15023,7 +15027,7 @@ var services = {
     },
     "4123": {
       "name": "z-wave",
-      "description": "Zensys Z-Wave Control Protocol"
+      "description": "Z-Wave Protocol"
     },
     "4124": {
       "name": "tigv2",
@@ -15399,6 +15403,10 @@ var services = {
       "name": "publiqare-sync",
       "description": "PubliQare Distributed Environment Synchronisation Engine"
     },
+    "4330": {
+      "name": "dey-sapi",
+      "description": "DEY Storage Administration REST API"
+    },
     "4340": {
       "name": "gaia",
       "description": "Gaia Connector Protocol"
@@ -15746,6 +15754,9 @@ var services = {
     "4500": {
       "name": "ipsec-nat-t",
       "description": "IPsec NAT-Traversal"
+    },
+    "4534": {
+      "description": "Reserved"
     },
     "4535": {
       "name": "ehs",
@@ -16120,6 +16131,9 @@ var services = {
     "4745": {
       "name": "fmp",
       "description": "Funambol Mobile Push"
+    },
+    "4747": {
+      "description": "Reserved"
     },
     "4749": {
       "name": "profilemac",
@@ -17119,12 +17133,10 @@ var services = {
       "description": "STUN Behavior Discovery over TLS"
     },
     "5350": {
-      "name": "nat-pmp-status",
-      "description": "NAT-PMP Status Announcements"
+      "description": "Reserved"
     },
     "5351": {
-      "name": "nat-pmp",
-      "description": "NAT Port Mapping Protocol"
+      "description": "Reserved"
     },
     "5352": {
       "name": "dns-llq",
@@ -17433,8 +17445,8 @@ var services = {
       "description": "Westec Connect"
     },
     "5567": {
-      "name": "m-oap",
-      "description": "Multicast Object Access Protocol"
+      "name": "enc-eps-mc-sec",
+      "description": "EMIT protocol stack multicast/secure transport"
     },
     "5568": {
       "name": "sdt",
@@ -17974,6 +17986,10 @@ var services = {
       "name": "msft-dpm-cert",
       "description": "Microsoft DPM WCF Certificates"
     },
+    "6077": {
+      "name": "iconstructsrv",
+      "description": "iConstruct Server"
+    },
     "6082": {
       "description": "Reserved"
     },
@@ -18229,6 +18245,10 @@ var services = {
     "6316": {
       "name": "abb-escp",
       "description": "Ethernet Sensor Communications Protocol"
+    },
+    "6317": {
+      "name": "nav-data-cmd",
+      "description": "Navtech Radar Sensor Data Command"
     },
     "6320": {
       "name": "repsvc",
@@ -18659,6 +18679,9 @@ var services = {
       "name": "plysrv-https",
       "description": "PolyServe https"
     },
+    "6784": {
+      "description": "Reserved"
+    },
     "6785": {
       "name": "dgpf-exchg",
       "description": "DGPF Individual Exchange"
@@ -18898,6 +18921,9 @@ var services = {
       "name": "empowerid",
       "description": "EmpowerID Communication"
     },
+    "7095": {
+      "description": "Reserved"
+    },
     "7099": {
       "name": "lazy-ptop",
       "description": "lazy-ptop"
@@ -18968,6 +18994,10 @@ var services = {
     "7171": {
       "name": "drm-production",
       "description": "Discovery and Retention Mgt Production"
+    },
+    "7172": {
+      "name": "metalbend",
+      "description": "Port used for MetalBend programmable interface"
     },
     "7173": {
       "name": "zsecure",
@@ -19101,6 +19131,10 @@ var services = {
       "name": "ionixnetmon",
       "description": "Ionix Network Monitor"
     },
+    "7411": {
+      "name": "daqstream",
+      "description": "Streaming of measurement data"
+    },
     "7421": {
       "name": "mtportmon",
       "description": "Matisse Port Monitor"
@@ -19140,6 +19174,10 @@ var services = {
     "7473": {
       "name": "rise",
       "description": "Rise: The Vieneo Province"
+    },
+    "7474": {
+      "name": "neo4j",
+      "description": "Neo4j Graph Database"
     },
     "7491": {
       "name": "telops-lmd",
@@ -19411,6 +19449,9 @@ var services = {
     "7801": {
       "name": "ssp-client",
       "description": "Secure Server Protocol - client"
+    },
+    "7802": {
+      "description": "Reserved"
     },
     "7810": {
       "name": "rbt-wanopt",
@@ -19923,6 +19964,10 @@ var services = {
       "name": "npmp",
       "description": "npmp"
     },
+    "8457": {
+      "name": "nexentamv",
+      "description": "Nexenta Management GUI"
+    },
     "8470": {
       "name": "cisco-avp",
       "description": "Cisco Address Validation Protocol"
@@ -19960,8 +20005,8 @@ var services = {
       "description": "SYMAX D-FENCE"
     },
     "8567": {
-      "name": "oap-admin",
-      "description": "Object Access Protocol Administration"
+      "name": "enc-tunnel",
+      "description": "EMIT tunneling protocol"
     },
     "8600": {
       "name": "asterix",
@@ -20002,6 +20047,10 @@ var services = {
       "name": "sun-as-jmxrmi",
       "description": "Sun App Server - JMX/RMI"
     },
+    "8688": {
+      "name": "openremote-ctrl",
+      "description": "OpenRemote Controller HTTP/REST"
+    },
     "8699": {
       "name": "vnyx",
       "description": "VNYX Primary Port"
@@ -20017,6 +20066,10 @@ var services = {
       "name": "ibus",
       "description": "iBus"
     },
+    "8750": {
+      "name": "dey-keyneg",
+      "description": "DEY Storage Key Negotiation"
+    },
     "8763": {
       "name": "mc-appserver",
       "description": "MC-APPSERVER"
@@ -20028,6 +20081,10 @@ var services = {
     "8765": {
       "name": "ultraseek-http",
       "description": "Ultraseek HTTP"
+    },
+    "8766": {
+      "name": "amcs",
+      "description": "Agilent Connectivity Service"
     },
     "8770": {
       "name": "dpap",
@@ -20300,6 +20357,14 @@ var services = {
       "name": "mxit",
       "description": "MXit Instant Messaging"
     },
+    "9122": {
+      "name": "grcmp",
+      "description": "Global Relay compliant mobile instant messaging protocol"
+    },
+    "9123": {
+      "name": "grcp",
+      "description": "Global Relay compliant instant messaging protocol"
+    },
     "9131": {
       "name": "dddp",
       "description": "Dynamic Device Discovery"
@@ -20407,6 +20472,9 @@ var services = {
     "9255": {
       "name": "mon",
       "description": "Manager On Network"
+    },
+    "9277": {
+      "description": "Reserved"
     },
     "9278": {
       "name": "pegasus",
@@ -20778,6 +20846,10 @@ var services = {
       "name": "odnsp",
       "description": "OKI Data Network Setting Protocol"
     },
+    "9978": {
+      "name": "xybrid-rt",
+      "description": "XYBRID RT Server"
+    },
     "9987": {
       "name": "dsm-scm-target",
       "description": "DSM/SCM Target Interface"
@@ -21027,6 +21099,10 @@ var services = {
       "name": "helix",
       "description": "Helix Client/Server"
     },
+    "10880": {
+      "name": "bveapi",
+      "description": "BVEssentials HTTP API"
+    },
     "10990": {
       "name": "rmiaux",
       "description": "Auxiliary RMI Port"
@@ -21050,6 +21126,14 @@ var services = {
     "11106": {
       "name": "sgi-lk",
       "description": "SGI LK Licensing service"
+    },
+    "11109": {
+      "name": "sgi-dmfmgr",
+      "description": "Data migration facility Manager (DMF) is a browser based interface to DMF"
+    },
+    "11110": {
+      "name": "sgi-soap",
+      "description": "Data migration facility (DMF) SOAP is a web server protocol to support remote access to DMF"
     },
     "11111": {
       "name": "vce",
@@ -21144,7 +21228,7 @@ var services = {
     },
     "11720": {
       "name": "h323callsigalt",
-      "description": "h323 Call Signal Alternate"
+      "description": "H.323 Call Control Signalling Alternate"
     },
     "11751": {
       "name": "intrepid-ssl",
@@ -21359,6 +21443,9 @@ var services = {
     "14001": {
       "name": "sua",
       "description": "SUA"
+    },
+    "14002": {
+      "description": "Reserved"
     },
     "14033": {
       "name": "sage-best-com1",
@@ -21723,6 +21810,9 @@ var services = {
       "name": "jcp",
       "description": "JCP Client"
     },
+    "19788": {
+      "description": "Reserved"
+    },
     "19998": {
       "name": "iec-104-sec",
       "description": "IEC 60870-5-104 process control - secure"
@@ -22013,6 +22103,9 @@ var services = {
       "name": "ild",
       "description": "Isolv Local Directory"
     },
+    "24322": {
+      "description": "Reserved"
+    },
     "24386": {
       "name": "intel_rci",
       "description": "Intel RCI"
@@ -22182,6 +22275,10 @@ var services = {
       "name": "ars-vista",
       "description": "ARS VISTA Application"
     },
+    "27876": {
+      "name": "astrolink",
+      "description": "Astrolink Protocol"
+    },
     "27999": {
       "name": "tw-auth-key",
       "description": "TW Authentication/Key Distribution and"
@@ -22196,6 +22293,10 @@ var services = {
     },
     "28119": {
       "description": "Reserved"
+    },
+    "28200": {
+      "name": "voxelstorm",
+      "description": "VoxelStorm game server"
     },
     "28240": {
       "name": "siemensgsm",
@@ -22214,6 +22315,10 @@ var services = {
     "29999": {
       "name": "bingbang",
       "description": "data exchange protocol for IEC61850 in wind power plants"
+    },
+    "30000": {
+      "name": "ndmps",
+      "description": "Secure Network Data Management Protocol"
     },
     "30001": {
       "name": "pago-services1",
@@ -22436,6 +22541,10 @@ var services = {
       "name": "neckar",
       "description": "science + computing's Venus Administration Port"
     },
+    "37483": {
+      "name": "gdrive-sync",
+      "description": "Google Drive Sync"
+    },
     "37654": {
       "name": "unisys-eportal",
       "description": "Unisys ClearPath ePortal"
@@ -22519,6 +22628,10 @@ var services = {
       "name": "caerpc",
       "description": "CA eTrust RPC"
     },
+    "43000": {
+      "name": "recvr-rc",
+      "description": "Receiver Remote Control"
+    },
     "43188": {
       "name": "reachout",
       "description": "REACHOUT"
@@ -22564,7 +22677,7 @@ var services = {
       "description": "PCP server (pmcd) proxy"
     },
     "44323": {
-      "description": "Reserved"
+      "description": "Unassigned"
     },
     "44444": {
       "name": "cognex-dataman",
@@ -22583,6 +22696,10 @@ var services = {
     "44818": {
       "name": "EtherNet/IP-2",
       "description": "EtherNet/IP messaging"
+    },
+    "44900": {
+      "name": "m3da",
+      "description": "M3DA is used for efficient machine-to-machine communications"
     },
     "45000": {
       "name": "asmp",
@@ -22627,6 +22744,9 @@ var services = {
     "47001": {
       "name": "winrm",
       "description": "Windows Remote Management Service"
+    },
+    "47100": {
+      "description": "Reserved"
     },
     "47557": {
       "name": "dbbrowse",
@@ -26629,7 +26749,7 @@ var services = {
     },
     "1300": {
       "name": "h323hostcallsc",
-      "description": "H323 Host Call Secure"
+      "description": "H.323 Secure Call Control Signalling"
     },
     "1301": {
       "name": "ci3-software-1",
@@ -28293,15 +28413,15 @@ var services = {
     },
     "1718": {
       "name": "h323gatedisc",
-      "description": "h323gatedisc"
+      "description": "H.323 Multicast Gatekeeper Discover"
     },
     "1719": {
       "name": "h323gatestat",
-      "description": "h323gatestat"
+      "description": "H.323 Unicast Gatekeeper Signaling"
     },
     "1720": {
       "name": "h323hostcall",
-      "description": "h323hostcall"
+      "description": "H.323 Call Control Signalling"
     },
     "1721": {
       "name": "caicci",
@@ -29807,7 +29927,7 @@ var services = {
     },
     "2099": {
       "name": "h2250-annex-g",
-      "description": "H.225.0 Annex G"
+      "description": "H.225.0 Annex G Signalling"
     },
     "2100": {
       "name": "amiganetfs",
@@ -31425,7 +31545,7 @@ var services = {
     },
     "2517": {
       "name": "call-sig-trans",
-      "description": "H.323 Annex E call signaling transport"
+      "description": "H.323 Annex E Call Control Signalling Transport"
     },
     "2518": {
       "name": "willy",
@@ -33808,6 +33928,9 @@ var services = {
       "name": "d2000webserver",
       "description": "D2000 Webserver Port"
     },
+    "3121": {
+      "description": "Reserved"
+    },
     "3122": {
       "name": "vtr-emulator",
       "description": "MTI VTR Emulator port"
@@ -35527,12 +35650,12 @@ var services = {
       "description": "Reserved"
     },
     "3567": {
-      "name": "oap",
-      "description": "Object Access Protocol"
+      "name": "enc-eps",
+      "description": "EMIT protocol stack"
     },
     "3568": {
-      "name": "oap-s",
-      "description": "Object Access Protocol over SSL"
+      "name": "enc-tunnel-sec",
+      "description": "EMIT secure tunnel"
     },
     "3569": {
       "name": "mbg-ctrl",
@@ -37721,7 +37844,7 @@ var services = {
     },
     "4123": {
       "name": "z-wave",
-      "description": "Zensys Z-Wave Control Protocol"
+      "description": "Z-Wave Protocol"
     },
     "4124": {
       "name": "tigv2",
@@ -38086,6 +38209,9 @@ var services = {
     "4329": {
       "description": "Reserved"
     },
+    "4330": {
+      "description": "Reserved"
+    },
     "4340": {
       "name": "gaia",
       "description": "Gaia Connector Protocol"
@@ -38096,7 +38222,7 @@ var services = {
     },
     "4342": {
       "name": "lisp-control",
-      "description": "LISP Data-Triggered Control"
+      "description": "LISP Control Packets"
     },
     "4343": {
       "name": "unicall",
@@ -38419,6 +38545,10 @@ var services = {
     "4500": {
       "name": "ipsec-nat-t",
       "description": "IPsec NAT-Traversal"
+    },
+    "4534": {
+      "name": "armagetronad",
+      "description": "Armagetron Advanced Game Server"
     },
     "4535": {
       "name": "ehs",
@@ -38791,6 +38921,10 @@ var services = {
     "4745": {
       "name": "fmp",
       "description": "Funambol Mobile Push"
+    },
+    "4747": {
+      "name": "buschtrommel",
+      "description": "peer-to-peer file exchange protocol"
     },
     "4749": {
       "name": "profilemac",
@@ -39231,7 +39365,8 @@ var services = {
       "description": "ITA Manager"
     },
     "5053": {
-      "description": "Reserved"
+      "name": "rlm-disc",
+      "description": "RLM Discovery Server"
     },
     "5054": {
       "description": "Reserved"
@@ -39750,12 +39885,12 @@ var services = {
       "description": "Reserved for a future enhancement of STUN-BEHAVIOR"
     },
     "5350": {
-      "name": "nat-pmp-status",
-      "description": "NAT-PMP Status Announcements"
+      "name": "pcp-multicast",
+      "description": "Port Control Protocol Multicast"
     },
     "5351": {
-      "name": "nat-pmp",
-      "description": "NAT Port Mapping Protocol"
+      "name": "pcp",
+      "description": "Port Control Protocol"
     },
     "5352": {
       "name": "dns-llq",
@@ -40063,8 +40198,8 @@ var services = {
       "description": "Reserved"
     },
     "5567": {
-      "name": "m-oap",
-      "description": "Multicast Object Access Protocol"
+      "name": "enc-eps-mc-sec",
+      "description": "EMIT protocol stack multicast/secure transport"
     },
     "5568": {
       "name": "sdt",
@@ -40198,7 +40333,8 @@ var services = {
       "description": "Reserved"
     },
     "5670": {
-      "description": "Reserved"
+      "name": "zre-disc",
+      "description": "Local area discovery and messaging over ZeroMQ"
     },
     "5671": {
       "name": "amqps",
@@ -40585,6 +40721,9 @@ var services = {
     "6076": {
       "description": "Reserved"
     },
+    "6077": {
+      "description": "Reserved"
+    },
     "6082": {
       "name": "p25cai",
       "description": "APCO Project 25 Common Air Interface - UDP encapsulation"
@@ -40834,6 +40973,10 @@ var services = {
     "6316": {
       "name": "abb-escp",
       "description": "Ethernet Sensor Communications Protocol"
+    },
+    "6317": {
+      "name": "nav-data",
+      "description": "Navtech Radar Sensor Data"
     },
     "6320": {
       "name": "repsvc",
@@ -41252,6 +41395,10 @@ var services = {
       "name": "plysrv-https",
       "description": "PolyServe https"
     },
+    "6784": {
+      "name": "bfd-lag",
+      "description": "Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces"
+    },
     "6785": {
       "name": "dgpf-exchg",
       "description": "DGPF Individual Exchange"
@@ -41488,6 +41635,10 @@ var services = {
       "name": "empowerid",
       "description": "EmpowerID Communication"
     },
+    "7095": {
+      "name": "jdp-disc",
+      "description": "Java Discovery Protocol"
+    },
     "7099": {
       "name": "lazy-ptop",
       "description": "lazy-ptop"
@@ -41557,6 +41708,9 @@ var services = {
     "7171": {
       "name": "drm-production",
       "description": "Discovery and Retention Mgt Production"
+    },
+    "7172": {
+      "description": "Reserved"
     },
     "7173": {
       "description": "Reserved"
@@ -41684,6 +41838,10 @@ var services = {
       "name": "ionixnetmon",
       "description": "Ionix Network Monitor"
     },
+    "7411": {
+      "name": "daqstream",
+      "description": "Streaming of measurement data"
+    },
     "7421": {
       "name": "mtportmon",
       "description": "Matisse Port Monitor"
@@ -41723,6 +41881,9 @@ var services = {
     "7473": {
       "name": "rise",
       "description": "Rise: The Vieneo Province"
+    },
+    "7474": {
+      "description": "Reserved"
     },
     "7491": {
       "name": "telops-lmd",
@@ -41984,6 +42145,10 @@ var services = {
     "7801": {
       "name": "ssp-client",
       "description": "Secure Server Protocol - client"
+    },
+    "7802": {
+      "name": "vns-tp",
+      "description": "Virtualized Network Services Tunnel Protocol"
     },
     "7810": {
       "name": "rbt-wanopt",
@@ -42482,6 +42647,9 @@ var services = {
       "name": "npmp",
       "description": "npmp"
     },
+    "8457": {
+      "description": "Reserved"
+    },
     "8470": {
       "description": "Reserved"
     },
@@ -42517,8 +42685,8 @@ var services = {
       "description": "SYMAX D-FENCE"
     },
     "8567": {
-      "name": "oap-admin",
-      "description": "Object Access Protocol Administration"
+      "name": "enc-tunnel",
+      "description": "EMIT tunneling protocol"
     },
     "8600": {
       "name": "asterix",
@@ -42559,6 +42727,9 @@ var services = {
       "name": "sun-as-jmxrmi",
       "description": "Sun App Server - JMX/RMI"
     },
+    "8688": {
+      "description": "Reserved"
+    },
     "8699": {
       "name": "vnyx",
       "description": "VNYX Primary Port"
@@ -42574,6 +42745,9 @@ var services = {
       "name": "ibus",
       "description": "iBus"
     },
+    "8750": {
+      "description": "Reserved"
+    },
     "8763": {
       "name": "mc-appserver",
       "description": "MC-APPSERVER"
@@ -42585,6 +42759,10 @@ var services = {
     "8765": {
       "name": "ultraseek-http",
       "description": "Ultraseek HTTP"
+    },
+    "8766": {
+      "name": "amcs",
+      "description": "Agilent Connectivity Service"
     },
     "8770": {
       "name": "dpap",
@@ -42848,6 +43026,12 @@ var services = {
       "name": "mxit",
       "description": "MXit Instant Messaging"
     },
+    "9122": {
+      "description": "Reserved"
+    },
+    "9123": {
+      "description": "Reserved"
+    },
     "9131": {
       "name": "dddp",
       "description": "Dynamic Device Discovery"
@@ -42955,6 +43139,10 @@ var services = {
     "9255": {
       "name": "mon",
       "description": "Manager On Network"
+    },
+    "9277": {
+      "name": "traingpsdata",
+      "description": "GPS Data transmitted from train to ground network"
     },
     "9278": {
       "name": "pegasus",
@@ -43318,6 +43506,9 @@ var services = {
       "name": "odnsp",
       "description": "OKI Data Network Setting Protocol"
     },
+    "9978": {
+      "description": "Reserved"
+    },
     "9987": {
       "name": "dsm-scm-target",
       "description": "DSM/SCM Target Interface"
@@ -43561,6 +43752,10 @@ var services = {
       "name": "helix",
       "description": "Helix Client/Server"
     },
+    "10880": {
+      "name": "bveapi",
+      "description": "BVEssentials HTTP API"
+    },
     "10990": {
       "name": "rmiaux",
       "description": "Auxiliary RMI Port"
@@ -43582,6 +43777,12 @@ var services = {
     "11106": {
       "name": "sgi-lk",
       "description": "SGI LK Licensing service"
+    },
+    "11109": {
+      "description": "Reserved"
+    },
+    "11110": {
+      "description": "Reserved"
     },
     "11111": {
       "name": "vce",
@@ -43671,7 +43872,7 @@ var services = {
     },
     "11720": {
       "name": "h323callsigalt",
-      "description": "h323 Call Signal Alternate"
+      "description": "H.323 Call Control Signalling Alternate"
     },
     "11751": {
       "name": "intrepid-ssl",
@@ -43884,6 +44085,10 @@ var services = {
     "14001": {
       "name": "sua",
       "description": "De-Registered"
+    },
+    "14002": {
+      "name": "scotty-disc",
+      "description": "Discovery of a SCOTTY hardware codec board"
     },
     "14033": {
       "name": "sage-best-com1",
@@ -44238,6 +44443,10 @@ var services = {
       "name": "jcp",
       "description": "JCP Client"
     },
+    "19788": {
+      "name": "mle",
+      "description": "Mesh Link Establishment"
+    },
     "19998": {
       "description": "Reserved"
     },
@@ -44520,6 +44729,10 @@ var services = {
       "name": "ild",
       "description": "Isolv Local Directory"
     },
+    "24322": {
+      "name": "hid",
+      "description": "Transport of Human Interface Device data streams"
+    },
     "24386": {
       "name": "intel_rci",
       "description": "Intel RCI"
@@ -44689,6 +44902,9 @@ var services = {
       "name": "ars-vista",
       "description": "ARS VISTA Application"
     },
+    "27876": {
+      "description": "Reserved"
+    },
     "27999": {
       "name": "tw-auth-key",
       "description": "Attribute Certificate Services"
@@ -44703,6 +44919,10 @@ var services = {
     "28119": {
       "name": "a27-ran-ran",
       "description": "A27 cdma2000 RAN Management"
+    },
+    "28200": {
+      "name": "voxelstorm",
+      "description": "VoxelStorm game server"
     },
     "28240": {
       "name": "siemensgsm",
@@ -44719,6 +44939,9 @@ var services = {
       "description": "Reserved"
     },
     "29999": {
+      "description": "Reserved"
+    },
+    "30000": {
       "description": "Reserved"
     },
     "30001": {
@@ -44934,6 +45157,9 @@ var services = {
       "name": "neckar",
       "description": "science + computing's Venus Administration Port"
     },
+    "37483": {
+      "description": "Reserved"
+    },
     "37654": {
       "name": "unisys-eportal",
       "description": "Unisys ClearPath ePortal"
@@ -45013,6 +45239,10 @@ var services = {
       "name": "caerpc",
       "description": "CA eTrust RPC"
     },
+    "43000": {
+      "name": "recvr-rc-disc",
+      "description": "Receiver Remote Control Discovery"
+    },
     "43188": {
       "name": "reachout",
       "description": "REACHOUT"
@@ -45056,8 +45286,7 @@ var services = {
       "description": "PCP server (pmcd) proxy"
     },
     "44323": {
-      "name": "pcp",
-      "description": "Port Control Protocol"
+      "description": "Unassigned"
     },
     "44444": {
       "description": "Reserved"
@@ -45077,6 +45306,10 @@ var services = {
     "44818": {
       "name": "EtherNet/IP-2",
       "description": "EtherNet/IP messaging"
+    },
+    "44900": {
+      "name": "m3da-disc",
+      "description": "M3DA Discovery is used for efficient machine-to-machine communications"
     },
     "45000": {
       "name": "asmp-mon",
@@ -45117,6 +45350,10 @@ var services = {
     },
     "47001": {
       "description": "Reserved"
+    },
+    "47100": {
+      "name": "jvl-mactalk",
+      "description": "Configuration of motors connected to Industrial Ethernet"
     },
     "47557": {
       "name": "dbbrowse",
@@ -45450,6 +45687,10 @@ var services = {
     "6514": {
       "name": "syslog-tls",
       "description": "syslog over DTLS"
+    },
+    "undefined": {
+      "name": "dccp-ping",
+      "description": "ping/traceroute using DCCP"
     }
   },
   "undefined": {
@@ -45543,9 +45784,6 @@ var services = {
     "3092": {
       "description": "Unassigned"
     },
-    "3121": {
-      "description": "Unassigned"
-    },
     "3126": {
       "description": "Unassigned"
     },
@@ -45574,6 +45812,9 @@ var services = {
       "description": "Unassigned"
     },
     "4501": {
+      "description": "Unassigned"
+    },
+    "4746": {
       "description": "Unassigned"
     },
     "4983": {
@@ -45662,9 +45903,6 @@ var services = {
     "6700": {
       "description": "Unassigned"
     },
-    "7172": {
-      "description": "Unassigned"
-    },
     "7396": {
       "description": "Unassigned"
     },
@@ -45690,6 +45928,9 @@ var services = {
       "description": "Unassigned"
     },
     "8193": {
+      "description": "Unassigned"
+    },
+    "8687": {
       "description": "Unassigned"
     },
     "8882": {
@@ -45747,9 +45988,6 @@ var services = {
       "description": "De-registered"
     },
     "26488": {
-      "description": "Unassigned"
-    },
-    "30000": {
       "description": "Unassigned"
     },
     "33332": {
@@ -45863,7 +46101,7 @@ var services = {
     "4314-4319": {
       "description": "Unassigned"
     },
-    "4330-4339": {
+    "4331-4339": {
       "description": "Unassigned"
     },
     "4363-4367": {
@@ -45887,7 +46125,7 @@ var services = {
     "4489-4499": {
       "description": "Unassigned"
     },
-    "4503-4534": {
+    "4503-4533": {
       "description": "Unassigned"
     },
     "4539-4544": {
@@ -45911,7 +46149,7 @@ var services = {
     "4734-4736": {
       "description": "Unassigned"
     },
-    "4746-4748": {
+    "4748-4748": {
       "description": "Unassigned"
     },
     "4754-4783": {
@@ -46130,7 +46368,7 @@ var services = {
     "5993-5998": {
       "description": "Unassigned"
     },
-    "6077-6081": {
+    "6078-6081": {
       "description": "Unassigned"
     },
     "6089-6098": {
@@ -46172,7 +46410,7 @@ var services = {
     "6307-6314": {
       "description": "Unassigned"
     },
-    "6317-6319": {
+    "6318-6319": {
       "description": "Unassigned"
     },
     "6327-6342": {
@@ -46277,7 +46515,7 @@ var services = {
     "6716-6766": {
       "description": "Unassigned"
     },
-    "6772-6784": {
+    "6772-6783": {
       "description": "Unassigned"
     },
     "6792-6800": {
@@ -46337,7 +46575,10 @@ var services = {
     "7072-7079": {
       "description": "Unassigned"
     },
-    "7081-7098": {
+    "7081-7094": {
+      "description": "Unassigned"
+    },
+    "7096-7098": {
       "description": "Unassigned"
     },
     "7102-7106": {
@@ -46386,7 +46627,7 @@ var services = {
     "7403-7409": {
       "description": "Unassigned"
     },
-    "7411-7420": {
+    "7412-7420": {
       "description": "Unassigned"
     },
     "7422-7425": {
@@ -46401,7 +46642,7 @@ var services = {
     "7444-7472": {
       "description": "Unassigned"
     },
-    "7474-7490": {
+    "7475-7490": {
       "description": "Unassigned"
     },
     "7492-7499": {
@@ -46482,7 +46723,7 @@ var services = {
     "7795-7796": {
       "description": "Unassigned"
     },
-    "7802-7809": {
+    "7803-7809": {
       "description": "Unassigned"
     },
     "7811-7844": {
@@ -46626,7 +46867,10 @@ var services = {
     "8446-8449": {
       "description": "Unassigned"
     },
-    "8451-8469": {
+    "8451-8456": {
+      "description": "Unassigned"
+    },
+    "8458-8469": {
       "description": "Unassigned"
     },
     "8475-8499": {
@@ -46650,7 +46894,7 @@ var services = {
     "8676-8685": {
       "description": "Unassigned"
     },
-    "8687-8698": {
+    "8689-8698": {
       "description": "Unassigned"
     },
     "8700-8710": {
@@ -46659,10 +46903,13 @@ var services = {
     "8712-8731": {
       "description": "Unassigned"
     },
-    "8734-8762": {
+    "8734-8749": {
       "description": "Unassigned"
     },
-    "8766-8769": {
+    "8751-8762": {
+      "description": "Unassigned"
+    },
+    "8767-8769": {
       "description": "Unassigned"
     },
     "8771-8785": {
@@ -46722,7 +46969,10 @@ var services = {
     "9108-9118": {
       "description": "Unassigned"
     },
-    "9120-9130": {
+    "9120-9121": {
+      "description": "Unassigned"
+    },
+    "9124-9130": {
       "description": "Unassigned"
     },
     "9132-9159": {
@@ -46740,7 +46990,7 @@ var services = {
     "9223-9254": {
       "description": "Unassigned"
     },
-    "9256-9277": {
+    "9256-9276": {
       "description": "Unassigned"
     },
     "9288-9291": {
@@ -46854,7 +47104,10 @@ var services = {
     "9957-9965": {
       "description": "Unassigned"
     },
-    "9967-9986": {
+    "9967-9977": {
+      "description": "Unassigned"
+    },
+    "9979-9986": {
       "description": "Unassigned"
     },
     "9989-9989": {
@@ -46920,7 +47173,10 @@ var services = {
     "10811-10859": {
       "description": "Unassigned"
     },
-    "10861-10989": {
+    "10861-10879": {
+      "description": "Unassigned"
+    },
+    "10881-10989": {
       "description": "Unassigned"
     },
     "10991-10999": {
@@ -46929,7 +47185,7 @@ var services = {
     "11002-11103": {
       "description": "Unassigned"
     },
-    "11107-11110": {
+    "11107-11108": {
       "description": "Unassigned"
     },
     "11113-11160": {
@@ -47034,7 +47290,7 @@ var services = {
     "13931-13999": {
       "description": "Unassigned"
     },
-    "14002-14032": {
+    "14003-14032": {
       "description": "Unassigned"
     },
     "14035-14140": {
@@ -47199,7 +47455,10 @@ var services = {
     "19413-19538": {
       "description": "Unassigned"
     },
-    "19542-19997": {
+    "19542-19787": {
+      "description": "Unassigned"
+    },
+    "19789-19997": {
       "description": "Unassigned"
     },
     "20006-20011": {
@@ -47316,7 +47575,7 @@ var services = {
     "24250-24320": {
       "description": "Unassigned"
     },
-    "24322-24385": {
+    "24323-24385": {
       "description": "Unassigned"
     },
     "24387-24464": {
@@ -47392,10 +47651,16 @@ var services = {
     "27505-27781": {
       "description": "Unassigned"
     },
-    "27783-27998": {
+    "27783-27875": {
       "description": "Unassigned"
     },
-    "28002-28239": {
+    "27877-27998": {
+      "description": "Unassigned"
+    },
+    "28002-28199": {
+      "description": "Unassigned"
+    },
+    "28201-28239": {
       "description": "Unassigned"
     },
     "28241-29117": {
@@ -47509,7 +47774,10 @@ var services = {
     "36866-37474": {
       "description": "Unassigned"
     },
-    "37476-37653": {
+    "37476-37482": {
+      "description": "Unassigned"
+    },
+    "37484-37653": {
       "description": "Unassigned"
     },
     "37655-38200": {
@@ -47545,7 +47813,10 @@ var services = {
     "41798-42507": {
       "description": "Unassigned"
     },
-    "42511-43187": {
+    "42511-42999": {
+      "description": "Unassigned"
+    },
+    "43001-43187": {
       "description": "Unassigned"
     },
     "43192-43209": {
@@ -47575,7 +47846,10 @@ var services = {
     "44601-44817": {
       "description": "Unassigned"
     },
-    "44819-44999": {
+    "44819-44899": {
+      "description": "Unassigned"
+    },
+    "44901-44999": {
       "description": "Unassigned"
     },
     "45002-45053": {
@@ -47593,7 +47867,10 @@ var services = {
     "45967-46997": {
       "description": "Unassigned"
     },
-    "47002-47556": {
+    "47002-47099": {
+      "description": "Unassigned"
+    },
+    "47101-47556": {
       "description": "Unassigned"
     },
     "47558-47623": {
