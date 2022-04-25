@@ -10,11 +10,12 @@
   },
   "scripts": {},
   "main": "./service-names.js",
-  "dependencies": {},
+  "dependencies": {
+    "xml2js": "~0.2.0"
+  },
   "bin": {},
   "devDependencies": {
-    "request": "~2.11.4",
-    "xml2js": "~0.2.0"
+    "request": "~2.11.4"
   },
   "optionalDependencies": {},
   "engines": {
