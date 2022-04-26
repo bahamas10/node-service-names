@@ -1,7 +1,7 @@
 {
   "name": "service-names",
   "description": "Service names and ports (from iana.org)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
   "repository": {
@@ -11,12 +11,12 @@
   "scripts": {},
   "main": "./service-names.js",
   "dependencies": {
+    "axios": "^0.27.0",
+    "dayjs": "^1.11.1",
     "xml2js": "~0.2.0"
   },
   "bin": {},
-  "devDependencies": {
-    "request": "~2.11.4"
-  },
+  "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
